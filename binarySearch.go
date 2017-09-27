@@ -1,4 +1,4 @@
-// Binary Search in Golang
+// 二分查找 Binary Search in Golang
 package main
 
 import "fmt"
