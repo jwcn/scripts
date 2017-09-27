@@ -1,4 +1,4 @@
-// Quick Sort in Golang
+// 快速排序 Quick Sort in Golang
 package main
 
 import (
