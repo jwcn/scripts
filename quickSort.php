@@ -1,4 +1,5 @@
 <?php
+// 快速排序
 
 function quickSort(array $arr) {
 	if (count($arr) < 2) 
