@@ -51,3 +51,24 @@ func bubbleSort(items []int) {
 		n = n - 1 // 排除上一轮循环出来的最右最大值后, 开始下一轮循环
 	}
 }
+
+/*
+1. 从右侧第一位开始与左侧每一位对比,小就换
+2. 第二次循环对比排除最左侧第一位, 第三次排除第二位, 依次类推
+*/
+func foo(items []int) []int {
+	length := len(items)
+	if length < 2 {
+		return items
+	}
+
+	for i := 0; i < length; i++ {
+		for j := length - 1; j > i; j-- {
+			if items[j] < items[j-1] {
+				items[j], items[j-1] = items[j-1], items[j]
+			}
+		}
+	}
+
+	return items
+}
