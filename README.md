@@ -1,5 +1,7 @@
-# scripts
-note scripts
+
+> 整理常用笔记温故知新
+
+部分 [gist](https://gist.github.com/jwcn) 代码片段笔记
 
 ## 常用算法
 
