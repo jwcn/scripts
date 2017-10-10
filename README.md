@@ -8,3 +8,4 @@
  - 二分查找 ([Go](binarySearch.go))
  - 快速排序 ([Go](quickSort.go) [PHP](quickSort.php))
  - 冒泡排序 ([Go](bubbleSort.go) [PHP](bubbleSort.php))
+ - 梳排序 ([Go](combSort.go) [PHP](combSort.php))
