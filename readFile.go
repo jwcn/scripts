@@ -24,7 +24,6 @@ func readLine() {
 		if e != nil {
 			break
 		}
-
 	}
 }
 
@@ -45,6 +44,5 @@ func readByte() {
 		}
 
 		w.Write(buf[:n])
-		break
 	}
 }

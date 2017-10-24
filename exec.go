@@ -10,6 +10,7 @@ func main() {
 	buf, err := cmd.Output()
 	if err != nil {
 		fmt.Println(err.Error())
+		return
 	}
 
 	fmt.Println(string(buf))
