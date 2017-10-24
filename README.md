@@ -12,3 +12,8 @@
 ## 其他
 
 - 斐波那契数列 ([Go](fibonacci.go))
+
+## 基础包使用
+
+- 读取文件 ([Go](readFile.go))
+- 执行系统命令 ([Go](exec.go))
