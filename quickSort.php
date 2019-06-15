@@ -2,8 +2,7 @@
 // 快速排序
 
 function quickSort(array $arr) {
-	if (count($arr) < 2) 
-		return $arr;
+	if (count($arr) < 2) return $arr;
 
 	$left = 0;
 	$right = count($arr) - 1;
@@ -52,8 +51,8 @@ function quickSort2($arr) {
 	array_shift($right);
 
 
-	$left = foo($left);
-	$right = foo($right);
+	$left = quickSort2($left);
+	$right = quickSort2($right);
 
 	return array_merge($left, [$base], $right);
 }
